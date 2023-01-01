@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section>
+    <header>
       <ul>
         <li>
           <a href="/">Home</a>
@@ -11,7 +11,7 @@ const Header = () => {
           <a href="/products">Products</a>
         </li>
       </ul>
-    </section>
+    </header>
   );
 };
 

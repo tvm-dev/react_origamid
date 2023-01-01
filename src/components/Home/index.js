@@ -1,9 +1,10 @@
 import React from "react";
+import Title from "../Title";
 
 const Home = () => {
   return (
     <section>
-      <h1>Home</h1>
+      <Title textTitle="Home" />
       <p>You are at Home</p>
     </section>
   );
